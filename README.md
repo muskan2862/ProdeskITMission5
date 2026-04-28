@@ -1,4 +1,16 @@
-# ProdeskITMission5
-A Kanban Task Board built with React and Vite, inspired by Trello. It supports adding, editing, deleting, and moving tasks across To Do, In Progress, and Done columns. Includes priority-based styling (High, Medium, Low) and local storage persistence, ensuring tasks remain saved even after refreshing the page.
-![image alt](https://github.com/muskan2862/ProdeskITMission5/blob/7b297f439977105a275551ca9bd538d6cb2712dd/Screenshot%202026-04-28%20182323.png)
-![image alt](https://github.com/muskan2862/ProdeskITMission5/blob/45d6f1de2ea4a9ead5d51bd53941e8b6dbc200b2/Screenshot%202026-04-28%20182515.png)
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
