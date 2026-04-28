@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* Main container */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search bar */
+input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Layout */
+.board {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+}
+
+/* Column styling */
+.column {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 30%;
+  min-height: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+  text-align: center;
+}
+
+/* Task card */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  margin: 5px 3px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+/* Priority borders */
+.high {
+  border-left: 5px solid red;
+}
+
+.medium {
+  border-left: 5px solid orange;
+}
+
+.low {
+  border-left: 5px solid green;
+}
